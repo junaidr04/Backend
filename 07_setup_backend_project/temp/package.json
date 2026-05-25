@@ -1,0 +1,25 @@
+{
+    "name": "setup_backend_project",
+    "version": "1.0.0",
+    "description": "a setup backend project",
+    "keywords": [
+        "javascript",
+        "jack",
+        "backend"
+    ],
+    "license": "ISC",
+    "author": "jack sparrow",
+    "type": "module",
+    "main": "index.js",
+    "scripts": {
+        "dev": "nodemon src/index.js"
+    },
+    "dependencies": {
+        "dotenv": "^17.4.2",
+        "express": "^5.2.1"
+    },
+    "devDependencies": {
+        "nodemon": "^3.0.0",
+        "prettier": "^3.0.0"
+    }
+}
